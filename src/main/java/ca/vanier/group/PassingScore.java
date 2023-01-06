@@ -8,6 +8,8 @@ package ca.vanier.group;
  * second -Lei
  */
 public class PassingScore {
+
+	//boolean
 	public boolean isPassed(int score) {
 		if(score >= 6) {
 			return true;
