@@ -15,6 +15,9 @@ public class PassingScoreTest {
         PassingScore passingScore = new PassingScore();
 
         Assert.assertFalse(passingScore.isPassed(4));
+        Assert.assertFalse(passingScore.isPassed(5));
+        Assert.assertTrue(passingScore.isPassed(6));
+        Assert.assertTrue(passingScore.isPassed(7));
 
     }
 }
