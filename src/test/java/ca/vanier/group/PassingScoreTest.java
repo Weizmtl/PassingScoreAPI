@@ -19,5 +19,6 @@ public class PassingScoreTest {
         Assert.assertTrue(passingScore.isPassed(6));
         Assert.assertTrue(passingScore.isPassed(7));
 
+        // test 001
     }
 }
