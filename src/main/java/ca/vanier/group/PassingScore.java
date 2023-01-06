@@ -4,6 +4,7 @@ package ca.vanier.group;
  * @author wei
  * @description
  * @create 2023-01-05-20:31
+ * third message-Lei. Then modify by Wei
  */
 public class PassingScore {
 	public boolean isPassed(int score) {
